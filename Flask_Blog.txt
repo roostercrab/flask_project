@@ -20,3 +20,13 @@ run webserver:
 python flaskblog.py
 or
 flask run
+
+
+forms:
+pip install flask-wtf
+
+
+create secret key:
+pyshell:
+import secrets
+secrets.token_hex(16)
