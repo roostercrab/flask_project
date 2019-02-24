@@ -1,0 +1,16 @@
+Flask Blog
+
+inside app directory:
+create:
+flask*app*.py
+terminal:
+export *app*_APP=flask*app*.py
+
+
+export FLASK_DEBUG=1
+won't have to refresh web server constantly
+
+
+flask*app*.py:
+if __name__ == '__main__':
+    app.run(debug=True)
