@@ -2,15 +2,21 @@ Flask Blog
 
 inside app directory:
 create:
-flask*app*.py
+flaskblog.py
 terminal:
-export *app*_APP=flask*app*.py
+export FLASK_APP=flaskblog.py
 
 
 export FLASK_DEBUG=1
 won't have to refresh web server constantly
 
 
-flask*app*.py:
+flaskblog.py:
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+run webserver:
+python flaskblog.py
+or
+flask run
